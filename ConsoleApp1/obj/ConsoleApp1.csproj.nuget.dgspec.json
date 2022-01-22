@@ -41,6 +41,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "PuppeteerExtraSharp": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
             "PuppeteerSharp": {
               "target": "Package",
               "version": "[6.1.0, )"

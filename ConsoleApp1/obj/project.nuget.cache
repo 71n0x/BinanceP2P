@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JY4O/LPHoVzkwRHEWJpD7sxdehIlDapjEXYJx+EzvuN3LA4BLZ77p0HIU6kXyr0FLsp03PsgAAlhKMUeH/hGLw==",
+  "dgSpecHash": "9WLm0x5W2ugor4zw6Q6DKxM2FkdbHI1nDnTWyhOLkZFD3wp7hZFe0gW8vo+vQSmkzotki1ZQmsA/gMcz8iWKuw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Konamiruku\\RiderProjects\\BinanceP2P\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,9 @@
     "C:\\Users\\Konamiruku\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Konamiruku\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Konamiruku\\.nuget\\packages\\newtonsoft.json\\10.0.3\\newtonsoft.json.10.0.3.nupkg.sha512",
+    "C:\\Users\\Konamiruku\\.nuget\\packages\\puppeteerextrasharp\\1.3.2\\puppeteerextrasharp.1.3.2.nupkg.sha512",
     "C:\\Users\\Konamiruku\\.nuget\\packages\\puppeteersharp\\6.1.0\\puppeteersharp.6.1.0.nupkg.sha512",
+    "C:\\Users\\Konamiruku\\.nuget\\packages\\restsharp\\106.11.5\\restsharp.106.11.5.nupkg.sha512",
     "C:\\Users\\Konamiruku\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Konamiruku\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Konamiruku\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

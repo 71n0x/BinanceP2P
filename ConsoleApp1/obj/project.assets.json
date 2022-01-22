@@ -204,6 +204,19 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
+      "PuppeteerExtraSharp/1.3.2": {
+        "type": "package",
+        "dependencies": {
+          "PuppeteerSharp": "3.0.0",
+          "RestSharp": "106.11.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/PuppeteerExtraSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PuppeteerExtraSharp.dll": {}
+        }
+      },
       "PuppeteerSharp/6.1.0": {
         "type": "package",
         "dependencies": {
@@ -218,6 +231,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/PuppeteerSharp.dll": {}
+        }
+      },
+      "RestSharp/106.11.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -1733,6 +1755,18 @@
         "tools/install.ps1"
       ]
     },
+    "PuppeteerExtraSharp/1.3.2": {
+      "sha512": "+J0hnNO0ZnARIKbHjlNabpEm6cvF+LOahMytzG/f/kliV7UkG6tVIekfY5L4f144GicpMDCLyuZhmo+GHUXUcQ==",
+      "type": "package",
+      "path": "puppeteerextrasharp/1.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PuppeteerExtraSharp.dll",
+        "puppeteerextrasharp.1.3.2.nupkg.sha512",
+        "puppeteerextrasharp.nuspec"
+      ]
+    },
     "PuppeteerSharp/6.1.0": {
       "sha512": "qmRONN43jg21wzLcmze2oLvpCxQ0WscHOvcvLAH6S316QLEVSMpGIS61bQB02CFdg5oYsvi/q6klIa8csGxJ3A==",
       "type": "package",
@@ -1744,6 +1778,22 @@
         "lib/netstandard2.0/PuppeteerSharp.xml",
         "puppeteersharp.6.1.0.nupkg.sha512",
         "puppeteersharp.nuspec"
+      ]
+    },
+    "RestSharp/106.11.5": {
+      "sha512": "/DgzFdYoUcWGIsspNG1AvxdTcCxbrItgAQLW30by5AQ6jhnC46WgOK5B38UFIHYJNm7+YIWM+rdEMyXSrdO6Jw==",
+      "type": "package",
+      "path": "restsharp/106.11.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.11.5.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -4432,6 +4482,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "PuppeteerExtraSharp >= 1.3.2",
       "PuppeteerSharp >= 6.1.0"
     ]
   },
@@ -4475,6 +4526,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "PuppeteerExtraSharp": {
+            "target": "Package",
+            "version": "[1.3.2, )"
+          },
           "PuppeteerSharp": {
             "target": "Package",
             "version": "[6.1.0, )"
